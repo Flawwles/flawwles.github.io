@@ -1,0 +1,19 @@
+.project {
+  position: relative;
+}
+
+.project__image img{
+  display: block;
+  margin-bottom: 0;
+}
+
+.project__titles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 60px;
+}
+
+.project__titles h1 {
+  font-family: 'Raleway', sans-serif;
+}

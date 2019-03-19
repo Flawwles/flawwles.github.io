@@ -1,0 +1,32 @@
+.button {
+  background: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  margin: 0;
+  user-select: none;
+  white-space: nowrap;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 12px 18px rgba(50,50,93,.11), 0 3px 9px rgba(0,0,0,.08);
+  letter-spacing: 0.1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button__primary {
+  background-color: #32d478;
+  color: #fff;
+}
+
+.button__secondary {
+  background-color: #fff;
+  color: #32d478;
+}
+
+.button__lift {
+
+}
