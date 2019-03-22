@@ -1,19 +1,52 @@
 .project {
   position: relative;
+  background: black;
+  cursor: pointer;
 }
 
 .project__image img{
   display: block;
   margin-bottom: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
 }
 
 .project__titles {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 60px;
+  padding: 2.5rem;
+  color: #fff;
+}
+.project--dark .project__titles h3  {
+  text-shadow: 2px 2px 7px #00000024;
 }
 
-.project__titles h1 {
+.project__titles h3 {
   font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.project__titles p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem;
+  opacity: 0;
+  transform: translateY(var(--animation--position-offset));
+  transition: all 0.5s ease;
+}
+
+.project:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project:hover img {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .project__titles h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+  }
 }

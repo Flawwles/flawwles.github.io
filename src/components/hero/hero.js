@@ -1,6 +1,4 @@
-import PropTypes from "prop-types"
 import React from "react"
-
 import Container from "./../container/container"
 import Button from "./../button/button"
 import Buttongroup from "./../button/buttongroup"

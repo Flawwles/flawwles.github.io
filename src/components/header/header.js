@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Container from "./../container/container"
+import Container from "./../container"
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
         </span>
         <ul className="header-navigation">
           <li><Link to="/" className="header-navigation--link" activeClassName="header-navigation--link-active">Home</Link></li>
-          <li><Link to="/page-2" className="header-navigation--link" activeClassName="header-navigation--link-active">Portfolio</Link></li>
+          <li><Link to="/projects" className="header-navigation--link" activeClassName="header-navigation--link-active">Portfolio</Link></li>
           <li><Link to="/page-2" className="header-navigation--link" activeClassName="header-navigation--link-active">About</Link></li>
           <li><Link to="/page-2" className="header-navigation--link" activeClassName="header-navigation--link-active">Design Tips</Link></li>
         </ul>
