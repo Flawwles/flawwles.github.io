@@ -18,6 +18,10 @@
   padding: 2.5rem;
   color: #fff;
 }
+
+.project--small .project__titles {
+  padding: 1rem;
+}
 .project--dark .project__titles h3  {
   text-shadow: 2px 2px 7px #00000024;
 }
@@ -41,12 +45,18 @@
 }
 
 .project:hover img {
-  opacity: 0.5;
+  opacity: 0.3;
+}
+
+.project--small .project__titles h3 {
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
+  .project__titles {
+    padding: 1rem;
+  }
   .project__titles h3 {
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
   }
 }

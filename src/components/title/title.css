@@ -1,3 +1,14 @@
 .title {
-  
+  padding: 4rem 0;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title h1 {
+  font-family: var(--font-montserrat)
+}
+
+.title--dark {
+  color: #fff;
+  background: var(--dark-green)
 }

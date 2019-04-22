@@ -10,8 +10,10 @@ import Project from "../components/project"
 import Footer from "../components/footer"
 
 import pure360 from "../images/pure360.png"
+import axiom from "../images/axiom.png"
 import split from "../images/split.png"
 import breakfast from "../images/breakfast.png"
+import brandwatch from "../images/brandwatch.png"
 import email from "../images/email.png"
 
 const IndexPage = () => (
@@ -38,10 +40,26 @@ const IndexPage = () => (
       <div style={{display: `grid`, gridTemplateColumns: `1fr 1fr`}}>
         <Animation effect="fadeInLeft">
           <Project
+            title="Axiom"
+            desc="Design system that powers a suite of Brandwatch software products"
+            image={axiom}
+            url="/projects/axiom"
+          />
+        </Animation>
+        <Animation effect="fadeInRight">
+          <Project
+            title="Brandwatch"
+            desc="Simple, yet powerful tool to speed up email template creation"
+            image={brandwatch}
+            url="/projects/pure360"
+            theme="dark"
+          />
+        </Animation>
+        <Animation effect="fadeInLeft">
+          <Project
             title="Pure360"
             desc="Platform redesign to improve overall usablilty & tool users look forward to opening"
             image={pure360}
-            size="small"
             url="/projects/pure360"
           />
         </Animation>
@@ -50,7 +68,6 @@ const IndexPage = () => (
             title="Split Script"
             desc="Simple, yet powerful tool to speed up email template creation"
             image={split}
-            size="small"
             url="/projects/pure360"
           />
         </Animation>
@@ -59,7 +76,6 @@ const IndexPage = () => (
             title="Breakfast app"
             desc="App concept for breakfast reviews"
             image={breakfast}
-            size="small"
             url="/projects/pure360"
             theme="dark"
           />
@@ -69,7 +85,6 @@ const IndexPage = () => (
             title="Email"
             desc="Collection of email templates created for clients"
             image={email}
-            size="small"
             url="/projects/pure360"
           />
         </Animation>
