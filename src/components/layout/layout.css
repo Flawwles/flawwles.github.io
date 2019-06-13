@@ -664,4 +664,5 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 :root {
   --dark-green: rgb(27, 57, 61);
   --font-montserrat: 'Montserrat', sans-serrif;
+  --font-raleway: 'Raleway', sans-serrif;
 }

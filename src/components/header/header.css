@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  min-height: 62px
+  min-height: 62px;
 }
 .header-brand, .header-navigation {
   margin: auto 0;

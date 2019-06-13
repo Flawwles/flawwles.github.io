@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout/layout"
 import Container from "../../components/container"
@@ -55,7 +54,7 @@ const ProjectsPage = () => (
             desc="Simple, yet powerful tool to speed up email template creation"
             image={split}
             size="small"
-            url="/projects/pure360"
+            url="/projects/split"
           />
         </Animation>
         <Animation effect="fadeInRight">

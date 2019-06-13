@@ -35,3 +35,14 @@
   transform: translateX(0);
   opacity: 1;
 }
+
+.animation--fadeInDown {
+  opacity: 0;
+  transform: translateY(calc(var(--animation--position-offset) * -1));
+  transition: all var(--animation-duration) ease;
+}
+
+.animation--fadeInDown.visible {
+  transform: translateY(0);
+  opacity: 1;
+}

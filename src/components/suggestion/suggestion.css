@@ -1,0 +1,19 @@
+.suggestion {
+  width: 100%;
+  background: grey;
+  bottom: 0;
+  right: 0;
+  position: relative;
+}
+
+.suggestion--card {
+  background: white;
+  width: 300px;
+  padding: 2rem;
+  box-shadow: -4px 4px 20px 6px rgba(158,158,158,0.47);
+  border-radius: 5px;
+  margin: 1rem;
+  position: absolute;
+  bottom: 0rem;
+  right: 1rem;
+}

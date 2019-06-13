@@ -1,0 +1,158 @@
+.stripe {
+  background: linear-gradient(150deg,#32315e 35%,#514f9c 70%);
+  transform: skewY(-8deg);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: -200px;
+  content: "";
+  z-index: -99;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-50 {
+  width: 50%;
+}
+
+@media (max-width: 990px) {
+  .grid {
+    flex-wrap: wrap;
+  }
+
+  .grid-50 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .stripe {
+    top: -100px;
+  }
+}
+
+.split {
+  margin-top: 2.2rem;
+}
+
+.split h1, .split p, .split li {
+  color: #c7f5ff;
+}
+
+.split p, .split li {
+  font-size: 0.8rem;
+  font-family: var(--font-montserrat);
+}
+
+.split li {
+  font-weight: bold;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.titles h1, .titles img {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+
+.titles h1 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-weight: 400;
+}
+
+.titleblock {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  border-bottom: 1px solid hsla(0,0%,0%,0.2);
+  padding-top: 3rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+  border-radius: 1rem;
+  margin: 5rem 0
+}
+
+.splitflow{
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 990px) {
+  .cards {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  .splitflow{
+    display: block;
+    margin: 0 auto;
+  }
+  .white-text {
+    fill: black;
+  }
+}
+
+.card {
+  background: #f9f9f9;
+  border-top: 24px solid #697c95;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cardtext {
+  padding-top: 24px;
+  font-size: 0.8rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -48px;
+}
+
+.tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+}
+
+video {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.video {
+  width: 20rem;
+  border-radius: 20px;
+  padding-top: 3rem;
+}
+
+@media (max-width: 990px) {
+  .tables {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  .tables table {
+    margin: 0;
+  }
+  .video {
+    margin: 0 auto;
+  }
+}

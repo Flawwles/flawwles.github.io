@@ -10,10 +10,11 @@ import Project from "../components/project"
 import Footer from "../components/footer"
 
 import pure360 from "../images/pure360.png"
+import vizia from "../images/vizia.png"
 import axiom from "../images/axiom.png"
 import split from "../images/split.png"
 import breakfast from "../images/breakfast.png"
-import brandwatch from "../images/brandwatch.png"
+import audience from "../images/audience.png"
 import email from "../images/email.png"
 
 const IndexPage = () => (
@@ -34,23 +35,24 @@ const IndexPage = () => (
             lineHeight: `60px`,
           }}>
           I design digital products for
-          <b> mobile</b> and <b>web</b>, that people love to use.</h1>
+          <b> mobile</b> and <b>web</b>, that are simple and easy to use.</h1>
         </div>
       </Animation>
       <div style={{display: `grid`, gridTemplateColumns: `1fr 1fr`}}>
         <Animation effect="fadeInLeft">
           <Project
-            title="Axiom"
+            title="Vizia / Brandwatch"
             desc="Design system that powers a suite of Brandwatch software products"
-            image={axiom}
+            image={vizia}
             url="/projects/axiom"
+            theme="dark"
           />
         </Animation>
         <Animation effect="fadeInRight">
           <Project
-            title="Brandwatch"
+            title="Audience / Brandwatch"
             desc="Simple, yet powerful tool to speed up email template creation"
-            image={brandwatch}
+            image={audience}
             url="/projects/pure360"
             theme="dark"
           />
@@ -58,7 +60,7 @@ const IndexPage = () => (
         <Animation effect="fadeInLeft">
           <Project
             title="Pure360"
-            desc="Platform redesign to improve overall usablilty & tool users look forward to opening"
+            desc="Platform redesign to improve overall usablilty to create an app users look forward to working with."
             image={pure360}
             url="/projects/pure360"
           />
@@ -68,7 +70,7 @@ const IndexPage = () => (
             title="Split Script"
             desc="Simple, yet powerful tool to speed up email template creation"
             image={split}
-            url="/projects/pure360"
+            url="/projects/split"
           />
         </Animation>
         <Animation effect="fadeInLeft">
@@ -91,6 +93,7 @@ const IndexPage = () => (
       </div>
     </Container>
     <Footer/>
+
   </div>
 )
 
