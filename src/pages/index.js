@@ -41,6 +41,22 @@ const IndexPage = () => (
       <div style={{display: `grid`, gridTemplateColumns: `1fr 1fr`}}>
         <Animation effect="fadeInLeft">
           <Project
+            title="Pure360"
+            desc="Platform redesign to improve overall usablilty to create an app users look forward to working with."
+            image={pure360}
+            url="/projects/pure360"
+          />
+        </Animation>
+        <Animation effect="fadeInRight">
+          <Project
+            title="Split Script"
+            desc="Simple, yet powerful tool to speed up email template creation"
+            image={split}
+            url="/projects/split"
+          />
+        </Animation>
+        <Animation effect="fadeInLeft">
+          <Project
             title="Vizia / Brandwatch"
             desc="Design system that powers a suite of Brandwatch software products"
             image={vizia}
@@ -55,22 +71,6 @@ const IndexPage = () => (
             image={audience}
             url="/projects/pure360"
             theme="dark"
-          />
-        </Animation>
-        <Animation effect="fadeInLeft">
-          <Project
-            title="Pure360"
-            desc="Platform redesign to improve overall usablilty to create an app users look forward to working with."
-            image={pure360}
-            url="/projects/pure360"
-          />
-        </Animation>
-        <Animation effect="fadeInRight">
-          <Project
-            title="Split Script"
-            desc="Simple, yet powerful tool to speed up email template creation"
-            image={split}
-            url="/projects/split"
           />
         </Animation>
         <Animation effect="fadeInLeft">
