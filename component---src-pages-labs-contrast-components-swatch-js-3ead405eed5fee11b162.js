@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{142:function(n,e,i){"use strict";i.r(e);var t=i(0),r=i.n(t);e.default=function(n){n.children;var e=n.color;return r.a.createElement("div",{style:{content:"",width:"20px",height:"20px",borderRadius:"50%",background:e,display:"inline-block",marginRight:"10px"}})}}}]);
+//# sourceMappingURL=component---src-pages-labs-contrast-components-swatch-js-3ead405eed5fee11b162.js.map
